@@ -1,0 +1,70 @@
+.header{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+
+.header.region {
+ padding: 5px;
+}
+
+
+.region.region-branding {
+ flex: 0 1 20%;
+}
+
+
+.region.region-navigation {
+ flex: 0 1 50%;
+}
+
+
+.region.region-search {
+ flex: 0 1 30%;
+}
+
+
+.block-region.demo-block {
+ padding: 15px;
+}
+
+
+.featured{
+ padding: 40px 20px;
+ background-color: indianred;
+}
+
+
+.main{
+ padding: 50px 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.content {
+ flex: 0 1 65%;
+}
+
+
+.right--sidebar {
+ flex: 0 1 30%;
+}
+
+
+.footer--top {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+
+.footer--top .region {
+ padding: 5px;
+}
+
+
+.region-footer-first, .region-footer-second, .region-footer-third {
+ flex: 0 1 30%;
+}
